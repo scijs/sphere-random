@@ -1,0 +1,35 @@
+{
+  "name": "sphere-random",
+  "version": "1.0.0",
+  "description": "Uniformmly sample a point on a hypersphere",
+  "main": "rand-sphere.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/sphere-random.git"
+  },
+  "keywords": [
+    "sphere",
+    "sample",
+    "hypersphere",
+    "random",
+    "uniform",
+    "distribution",
+    "unit"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/sphere-random/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/sphere-random"
+}
