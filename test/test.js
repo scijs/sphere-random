@@ -18,3 +18,14 @@ tape('sample-sphere', function(t) {
 
   t.end()
 })
+
+tape('sample-sphere, passing rng as argument', function(t) {
+    var riggedRng = function () { return 0.5; }
+
+    var p = sampleSphere(2, riggedRng)
+
+    t.equals(p[0], -1)
+    t.equals(p[1], 1.2246063538223773e-16)
+
+    t.end();
+})
