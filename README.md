@@ -20,10 +20,11 @@ npm install sphere-random
 
 # API
 
-#### `require('sphere-random')(d)`
+#### `require('sphere-random')(d, rng)`
 Generates a random point on the surface of a d-dimensional hypersphere
 
 * `d` is the dimension of the sphere to sample
+* `rng` is the optional random number generator function (defaults to Math.random)
 
 **Returns** A point on the surface of a d-dimensional sphere
 
